@@ -1,0 +1,303 @@
+:root {
+    --faded-primary-color: rgba(178, 227, 255, 1);
+    --danger-color: rgba(231, 64, 64, 1);
+    --primary-color: rgba(35, 166, 240, 1);
+    --light-background-color: rgba(255, 255, 255, 1);
+    --faded-secondary-color-1: rgba(185, 234, 168, 1);
+    --text-color: rgba(37, 43, 66, 1);
+    --secondary-text-color-1: rgba(64, 187, 21, 1);
+    --light-gray-1: rgba(250, 250, 250, 1);
+    --alert-color: rgba(231, 124, 64, 1);
+    --primary-text-color: rgba(35, 166, 240, 1);
+    --faded-secondary-color-2: rgba(255, 220, 209, 1);
+    --dark-background-color: rgba(37, 43, 66, 1);
+    --light-text-color: rgba(255, 255, 255, 1);
+    --muted-color: rgba(189, 189, 189, 1);
+    --secondary: rgba(243, 205, 3, 1);
+    --second-text-color: rgba(115, 115, 115, 1);
+    --danger-text-color: rgba(231, 64, 64, 1);
+    --secondary-color-1: rgba(64, 187, 21, 1);
+    --paragraph2-font-family: "Montserrat-Regular", Helvetica;
+    --paragraph2-font-weight: 400;
+    --paragraph2-font-size: 14px;
+    --paragraph2-letter-spacing: 0.20000000298023224px;
+    --paragraph2-line-height: 20px;
+    --paragraph2-font-style: normal;
+    --btn-text-font-family: "Montserrat-Bold", Helvetica;
+    --btn-text-font-weight: 700;
+    --btn-text-font-size: 14px;
+    --btn-text-letter-spacing: 0.20000000298023224px;
+    --btn-text-line-height: 22px;
+    --btn-text-font-style: normal;
+    --h-6-font-family: "Montserrat-Bold", Helvetica;
+    --h-6-font-weight: 700;
+    --h-6-font-size: 14px;
+    --h-6-letter-spacing: 0.20000000298023224px;
+    --h-6-line-height: 24px;
+    --h-6-font-style: normal;
+    --h-2-font-family: "Montserrat-Bold", Helvetica;
+    --h-2-font-weight: 700;
+    --h-2-font-size: 40px;
+    --h-2-letter-spacing: 0.20000000298023224px;
+    --h-2-line-height: 50px;
+    --h-2-font-style: normal;
+    --link-font-family: "Montserrat-Bold", Helvetica;
+    --link-font-weight: 700;
+    --link-font-size: 14px;
+    --link-letter-spacing: 0.20000000298023224px;
+    --link-line-height: 24px;
+    --link-font-style: normal;
+    --h-5-font-family: "Montserrat-Bold", Helvetica;
+    --h-5-font-weight: 700;
+    --h-5-font-size: 16px;
+    --h-5-letter-spacing: 0.10000000149011612px;
+    --h-5-line-height: 24px;
+    --h-5-font-style: normal;
+    --h-4-font-family: "Montserrat-Regular", Helvetica;
+    --h-4-font-weight: 400;
+    --h-4-font-size: 20px;
+    --h-4-letter-spacing: 0.20000000298023224px;
+    --h-4-line-height: 30px;
+    --h-4-font-style: normal;
+    --h-1-font-family: "Montserrat-Bold", Helvetica;
+    --h-1-font-weight: 700;
+    --h-1-font-size: 58px;
+    --h-1-letter-spacing: 0.20000000298023224px;
+    --h-1-line-height: 80px;
+    --h-1-font-style: normal;
+    --h-3-font-family: "Montserrat-Bold", Helvetica;
+    --h-3-font-weight: 700;
+    --h-3-font-size: 24px;
+    --h-3-letter-spacing: 0.10000000149011612px;
+    --h-3-line-height: 32px;
+    --h-3-font-style: normal;
+    --small-font-family: "Montserrat-Regular", Helvetica;
+    --small-font-weight: 400;
+    --small-font-size: 12px;
+    --small-letter-spacing: 0.20000000298023224px;
+    --small-line-height: 16px;
+    --small-font-style: normal;
+    --light-drop-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    --accentued-drop-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  }
+
+.element-layout3 {
+    background-color: var(--dark-background-color);
+    height: 505px;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:0rem 12.1875rem ; */
+    /* padding: 0rem 12.1875rem; */
+  }
+  @media screen and (max-width: 1440px) {
+    .element-layout3 {
+         width: 1450px;
+     }
+   }
+  
+  .element-layout33 .container3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 195px;
+    padding: 160px 0px;
+    position: relative;
+    width: 1050px;
+  }
+  
+  .element-layout3 .row {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 1045px;
+  }
+  
+  .element-layout3 .col-md {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .element-layout3 .thumb-concept {
+    height: 485px;
+    position: relative;
+    width: 508px;
+  }
+  
+  .element-layout3 .overlap-group {
+    height: 468px;
+    position: relative;
+    width: 499px;
+  }
+  
+  .element-layout3 .ellipse {
+    background-color: #aaead0;
+    border-radius: 165.61px;
+    height: 331px;
+    left: 129px;
+    position: absolute;
+    top: 39px;
+    width: 331px;
+  }
+  
+  .element-layout3 .technology {
+    height: 442px;
+    left: 64px;
+    position: absolute;
+    top: 0;
+    width: 435px;
+  }
+  
+  .element-layout3 .image {
+    height: 178px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 281px;
+    width: 260px;
+  }
+  
+  .element-layout3 .group {
+    background-color: #0072f9;
+    border-radius: 5.83px;
+    height: 43px;
+    left: 269px;
+    position: absolute;
+    top: 420px;
+    width: 43px;
+  }
+  
+  .element-layout3 .gridicons-stats {
+    height: 24px;
+    left: 8px;
+    position: absolute;
+    top: 9px;
+    width: 27px;
+  }
+  
+  .element-layout3 .icomoon-free-stats-wrapper {
+    background-color: #0072f9;
+    border-radius: 5.83px;
+    height: 43px;
+    left: 28px;
+    position: absolute;
+    top: 205px;
+    width: 43px;
+  }
+  
+  .element-layout3 .icomoon-free-stats {
+    height: 20px;
+    left: 12px;
+    position: absolute;
+    top: 11px;
+    width: 20px;
+  }
+  
+  .element-layout3 .frame {
+    /* background-image: url(./image-4.png); */
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 34px;
+    left: 427px;
+    position: absolute;
+    top: 50px;
+    width: 34px;
+  }
+  
+  .element-layout3 .img {
+    height: 181px;
+    left: 281px;
+    object-fit: cover;
+    position: absolute;
+    top: 287px;
+    width: 194px;
+  }
+  
+  .element-layout3 .image-2 {
+    height: 158px;
+    left: 6px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 158px;
+  }
+  
+  .element-layout3 .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    overflow: hidden;
+    position: relative;
+    width: 381px;
+  }
+  
+  .element-layout3 .fixed-width-fixed {
+    background-color: var(--danger-color);
+    height: 7px;
+    position: relative;
+    width: 94px;
+  }
+  
+  .element-layout3 .section-title33 {
+    color: var(--light-text-color);
+    font-family: var(--h-2-font-family);
+    font-size: var(--h-2-font-size);
+    font-style: var(--h-2-font-style);
+    font-weight: var(--h-2-font-weight);
+    letter-spacing: var(--h-2-letter-spacing);
+    line-height: var(--h-2-line-height);
+    margin-right: -4px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .element-layout3 .paragraph2 {
+    color: var(--light-text-color);
+    font-family: var(--paragraph2-font-family);
+    font-size: var(--paragraph2-font-size);
+    font-style: var(--paragraph2-font-style);
+    font-weight: var(--paragraph2-font-weight);
+    letter-spacing: var(--paragraph2-letter-spacing);
+    line-height: var(--paragraph2-line-height);
+    position: relative;
+    width: fit-content;
+  }
+  
+  .element-layout3 .a3 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .element-layout3 .h3 {
+    color: var(--primary-text-color);
+    font-family: var(--link-font-family);
+    font-size: var(--link-font-size);
+    font-style: var(--link-font-style);
+    font-weight: var(--link-font-weight);
+    letter-spacing: var(--link-letter-spacing);
+    line-height: var(--link-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    cursor: pointer;
+  }
+  
+  .element-layout3 .icon-arrow-next {
+    height: 16px;
+    position: relative;
+    width: 9px;
+  }
+  
